@@ -1,0 +1,13 @@
+body{
+  background-color: rgba(67, 153, 168, 0.438)
+}
+h1{
+  color: red;
+}
+h2{
+  color: blue;
+}
+p{
+  color: white;
+  text-align: justify;
+}

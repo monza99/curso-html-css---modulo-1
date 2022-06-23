@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../Bokehlicia-Captiva-Rocket.ico"
+      type="image/x-icon"
+    />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightseagreen;
+        margin: 0;
+      }
+
+      header {
+        background-color: rgb(9, 149, 149);
+        padding: 10px;
+        margin: 10px;
+      }
+
+      nav {
+        background-color: rgb(9, 241, 241);
+        padding: 3px;
+        text-align: center;
+        border-radius: 10px;
+        transition: 0.2s;
+        box-shadow: 1px 4px 8px rgba(66, 66, 66, 0.847);
+      }
+
+      nav > a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        margin-right: 150px;
+      }
+
+      nav > a:hover {
+        color: rgb(23, 130, 130);
+        text-decoration: underline;
+      }
+
+      main {
+        background-color: lightskyblue;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px 1px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.516);
+      }
+
+      article {
+        padding: 2px 15px;
+        background-color: cadetblue;
+      }
+
+      article > p {
+        text-align: justify;
+        text-indent: 10px;
+      }
+
+      article > aside {
+        background-color: rgb(35, 115, 118);
+        text-align: center;
+        border-radius: 15px;
+        padding: 4px;
+        margin: 0px;
+      }
+
+      article > aside > p {
+        margin: 0px;
+      }
+
+      footer {
+        margin: 0;
+        padding: 4px;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+
+      footer > p {
+        margin: 0px;
+      }
+    </style>
+    <title>Grouping tag's</title>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <p>Esportes Política Tecnologia</p>
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Noticias sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa
+            commodi cum excepturi voluptas quo fugiat velit nulla deleniti ad?
+            Laudantium at numquam eligendi vero esse aliquam necessitatibus amet
+            totam?
+          </p>
+          <aside>
+            <p>Artigo escrito por Moisés Alves</p>
+          </aside>
+        </article>
+        <article></article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido por Moisés</p>
+    </footer>
+  </body>
+</html>

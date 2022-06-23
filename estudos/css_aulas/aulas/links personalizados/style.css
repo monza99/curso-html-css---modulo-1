@@ -1,0 +1,26 @@
+ul {
+  padding: 0;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 1s;
+  font-size: 2em;
+}
+ /*Link já visitado*/
+a:visited{
+  color: rgb(16, 139, 0);
+}
+
+/*Quando estiver sobre o link*/
+a:hover{
+  color: darkblue;
+  text-decoration: underline;
+}
+
+/*Quando clica sobre o link*/
+a:active {
+  color: red;
+}

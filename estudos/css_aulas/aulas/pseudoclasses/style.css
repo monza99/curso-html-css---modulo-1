@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+div > p {
+  display: none;
+}
+
+div:hover > p {
+  display: block;
+  color: blue;
+  background-color: red;
+  width: 15%;
+  height: 10%;
+  text-align: center;
+}
+
+div {
+  transition: 1s;
+}
+
+div:hover {
+  color: green;
+  font-size: 20px;
+}

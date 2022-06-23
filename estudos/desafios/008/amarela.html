@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    *{
+      padding: 0;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #ffec40;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 450px;
+      border-radius: 10px;
+      flex-direction: column;
+      background-color: #ff7b00;
+      padding: 20px 15px;
+    }
+
+    .text h1 {
+      text-align: center;
+      padding: 15px;
+    }
+
+    .text p {
+      text-align: justify;
+      padding: 20px;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .yellow {
+      color: #ffe600;
+    }
+
+
+    .link {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 30px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    }
+
+    .link a {
+      text-decoration: none;
+      text-align: center;
+      color: black;
+      font-size: 20px;
+      font-size: bold;
+      transition: 1s;
+    }
+
+    a.azul:hover{
+      padding: 20px;
+      border-radius: 20px;
+      background-color: #ffe600;
+      color: #4285C4;
+    }
+    
+    a.verde:hover{
+      padding: 20px;
+      border-radius: 20px;
+      background-color: #ffe600;
+      color: rgb(0, 160, 32);
+    }
+  </style>
+  <title>Página Amerela</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="text">
+        <H1>Desafio da navegação</H1>
+        <p>Esta página é a principal. é a página <strong class="yellow">Yellow</strong>. A partir dela você pode acessar as outras áreas principais através dos links abaixo</p>
+      </div>
+      <div class="link">
+        
+          <a href="verde.html" class="verde">Acessar página verde</a></li>
+          <a href="azul.html" class="azul">Acessar página azul</a>
+        
+      </div>
+    </div>
+  </header>
+</body>
+</html>
